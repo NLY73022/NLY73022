@@ -1,0 +1,20 @@
+<svg width="900" height="160" viewBox="0 0 900 160" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .n { font: 700 38px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #f0f6fc; }
+    .r { font: 20px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #58a6ff; opacity: 0; animation: cycle 9s infinite; }
+    .r2 { animation-delay: 3s; }
+    .r3 { animation-delay: 6s; }
+    @keyframes cycle {
+      0%   { opacity: 0; transform: translateY(8px); }
+      6%   { opacity: 1; transform: translateY(0); }
+      30%  { opacity: 1; transform: translateY(0); }
+      36%  { opacity: 0; transform: translateY(-8px); }
+      100% { opacity: 0; }
+    }
+  </style>
+  <rect width="900" height="160" rx="14" fill="#0d1117" stroke="#30363d"/>
+  <text class="n" x="40" y="72">Kazibwe Reagan Kamya</text>
+  <text class="r" x="40" y="118">Full-stack engineer</text>
+  <text class="r r2" x="40" y="118">DevOps practitioner</text>
+  <text class="r r3" x="40" y="118">AI &amp; systems researcher</text>
+</svg>

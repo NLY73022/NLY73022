@@ -1,0 +1,21 @@
+<svg width="400" height="160" viewBox="0 0 400 160" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#58a6ff"/>
+      <stop offset="1" stop-color="#a371f7"/>
+    </linearGradient>
+    <clipPath id="c"><rect width="400" height="160" rx="12"/></clipPath>
+  </defs>
+  <style>
+    .t { font: 600 22px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #f0f6fc; }
+    .d { font: 14px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #9da7b3; }
+    .k { font: 12px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #58a6ff; }
+    .bar { animation: slide 3s ease-in-out infinite alternate; }
+    @keyframes slide { from { transform: translateX(-160px); } to { transform: translateX(400px); } }
+  </style>
+  <rect width="400" height="160" rx="12" fill="#0d1117" stroke="#30363d"/>
+  <g clip-path="url(#c)"><rect class="bar" width="160" height="3" fill="url(#g)"/></g>
+  <text class="t" x="24" y="56">Journey to the Top</text>
+  <text class="d" x="24" y="88">A TypeScript web application</text>
+  <text class="k" x="24" y="130">TypeScript · Web</text>
+</svg>
