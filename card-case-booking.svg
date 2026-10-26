@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="210" viewBox="0 0 840 210" role="img" aria-label="Enterprise Booking and Management">
+<style>
+.m{font-family:ui-monospace,'SFMono-Regular',Consolas,monospace}
+.s{font-family:'Segoe UI',-apple-system,Helvetica,Arial,sans-serif}
+</style>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0E1020"/><stop offset="1" stop-color="#090A14"/></linearGradient>
+<linearGradient id="ac" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7C83FF"/><stop offset="1" stop-color="#3DD6C6"/></linearGradient>
+<radialGradient id="glow" cx="0.85" cy="0.1" r="0.7"><stop offset="0" stop-color="#7C83FF" stop-opacity="0.22"/><stop offset="1" stop-color="#7C83FF" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#fff" stroke-opacity="0.04"/></pattern>
+<clipPath id="clip"><rect width="840" height="210" rx="18"/></clipPath>
+</defs>
+
+<g clip-path="url(#clip)">
+  <rect width="840" height="210" fill="url(#bg)"/>
+  <rect width="840" height="210" fill="url(#grid)"/>
+  <rect width="840" height="210" fill="url(#glow)"/>
+  <rect width="6" height="210" fill="url(#ac)"/>
+</g>
+<rect x="0.5" y="0.5" width="839" height="209" rx="18" fill="none" stroke="#fff" stroke-opacity="0.10"/>
+
+<text class="m" x="36" y="42" font-size="11" letter-spacing="2" fill="#7C83FF">CASE STUDY 01</text>
+<g transform="translate(722,26)">
+  <rect width="82" height="24" rx="12" fill="#fff" fill-opacity="0.05" stroke="#fff" stroke-opacity="0.18"/>
+  <rect x="12" y="11" width="9" height="7" rx="1.5" fill="#9AA0B8"/>
+  <path d="M14 11V9a2.5 2.5 0 0 1 5 0v2" fill="none" stroke="#9AA0B8" stroke-width="1.4"/>
+  <text class="m" x="27" y="16" font-size="10" letter-spacing="1.5" fill="#9AA0B8">PRIVATE</text>
+</g>
+
+<text class="s" x="36" y="84" font-size="25" font-weight="700" fill="#F4F5FB">Enterprise Booking &amp; Management</text>
+<text class="s" x="36" y="110" font-size="13" fill="#9AA0B8">Multi-tenant booking workflow with containerized,</text>
+<text class="s" x="36" y="128" font-size="13" fill="#9AA0B8">automated deployments and optimized query paths.</text>
+
+<g fill="#7C83FF" fill-opacity="0.08" stroke="#7C83FF" stroke-opacity="0.35">
+  <rect x="36" y="156" width="56" height="26" rx="13"/>
+  <rect x="100" y="156" width="69" height="26" rx="13"/>
+  <rect x="177" y="156" width="90" height="26" rx="13"/>
+  <rect x="275" y="156" width="62" height="26" rx="13"/>
+</g>
+<g class="m" font-size="11" fill="#D6DAE8" text-anchor="middle">
+  <text x="64" y="173">React</text>
+  <text x="134.5" y="173">Node.js</text>
+  <text x="222" y="173">PostgreSQL</text>
+  <text x="306" y="173">Docker</text>
+</g>
+
+<g transform="translate(480,28)">
+  <rect x="0" y="16" width="150" height="26" rx="8" fill="#7C83FF" fill-opacity="0.10" stroke="#7C83FF" stroke-opacity="0.55">
+    <animate attributeName="fill-opacity" values="0.10;0.35;0.10" dur="3s" begin="0s" repeatCount="indefinite"/>
+  </rect>
+  <text class="m" x="14" y="33" font-size="11" fill="#D6DAE8">tenant_a</text>
+  <path d="M150 29 C 190 29, 190 62, 214 62" fill="none" stroke="#3DD6C6" stroke-opacity="0.5" stroke-dasharray="3 4">
+    <animate attributeName="stroke-dashoffset" values="14;0" dur="1.4s" repeatCount="indefinite"/>
+  </path>
+
+  <rect x="14" y="50" width="150" height="26" rx="8" fill="#7C83FF" fill-opacity="0.10" stroke="#7C83FF" stroke-opacity="0.55">
+    <animate attributeName="fill-opacity" values="0.10;0.35;0.10" dur="3s" begin="1s" repeatCount="indefinite"/>
+  </rect>
+  <text class="m" x="28" y="67" font-size="11" fill="#D6DAE8">tenant_b</text>
+  <path d="M164 63 C 204 63, 190 62, 214 62" fill="none" stroke="#3DD6C6" stroke-opacity="0.5" stroke-dasharray="3 4">
+    <animate attributeName="stroke-dashoffset" values="14;0" dur="1.4s" repeatCount="indefinite"/>
+  </path>
+
+  <rect x="28" y="84" width="150" height="26" rx="8" fill="#7C83FF" fill-opacity="0.10" stroke="#7C83FF" stroke-opacity="0.55">
+    <animate attributeName="fill-opacity" values="0.10;0.35;0.10" dur="3s" begin="2s" repeatCount="indefinite"/>
+  </rect>
+  <text class="m" x="42" y="101" font-size="11" fill="#D6DAE8">tenant_c</text>
+  <path d="M178 97 C 218 97, 190 62, 214 62" fill="none" stroke="#3DD6C6" stroke-opacity="0.5" stroke-dasharray="3 4">
+    <animate attributeName="stroke-dashoffset" values="14;0" dur="1.4s" repeatCount="indefinite"/>
+  </path>
+
+  <path d="M214 40 v52 a34 10 0 0 0 68 0 v-52" fill="#3DD6C6" fill-opacity="0.10" stroke="#3DD6C6" stroke-opacity="0.7"/>
+  <ellipse cx="248" cy="40" rx="34" ry="10" fill="#3DD6C6" fill-opacity="0.25" stroke="#3DD6C6" stroke-opacity="0.8"/>
+  <path d="M214 66a34 10 0 0 0 68 0" fill="none" stroke="#3DD6C6" stroke-opacity="0.4"/>
+  <text class="m" x="248" y="130" text-anchor="middle" font-size="10" fill="#9AA0B8">PostgreSQL</text>
+  <text class="m" x="75" y="130" text-anchor="middle" font-size="10" fill="#9AA0B8">isolated tenants</text>
+</g>
+</svg>
