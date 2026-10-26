@@ -114,11 +114,11 @@ An experimental multi-agent workflow where several AI models propose, critique, 
 
 > Proprietary, client, and academic code is kept private. Technical overviews and live walkthroughs are available on request.
 
-| Project | Technologies | Focus | Code |
-|---|---|---|---|
-| **Enterprise Booking & Management System** | React, Node.js, PostgreSQL, Docker | Multi-tenant booking workflow with automated containerized deployments and optimized query paths | 🔒 Private |
-| **Real-Time Data Processing Service** | Python, WebSockets, Redis, CI/CD | Asynchronous backend service that aggregates and streams metrics, with continuous integration | 🔒 Private |
-| **Automated Data Reporting Tool** | TypeScript, Node.js, GitHub Actions | Automated ETL reporting pipeline triggered and scheduled through CI/CD workflows | 🔒 Private |
+<p align="center">
+  <img src="card-case-booking.svg" width="100%" alt="Enterprise Booking and Management System">
+  <img src="card-case-realtime.svg" width="100%" alt="Real-Time Data Processing Service">
+  <img src="card-case-etl.svg" width="100%" alt="Automated Data Reporting Tool">
+</p>
 
 ---
 
